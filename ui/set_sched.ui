@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/IMG_3253.ico</normaloff>../images/IMG_3253.ico</iconset>
+  </property>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit_start">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>118</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit_finish">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>70</y>
+     <width>118</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxss">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>90</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>식단</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>운동</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>공부</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>오락</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>돈</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>청소</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>수면</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>외출</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="set_sche_btn">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>240</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>42</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

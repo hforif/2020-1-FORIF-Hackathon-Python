@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/IMG_3253.ico</normaloff>../images/IMG_3253.ico</iconset>
+  </property>
+  <widget class="QProgressBar" name="exp_progressBar">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>352</y>
+     <width>261</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+   <property name="format">
+    <string>%p</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>262</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="text">
+    <string>돈냥이</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>324</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="text">
+    <string>돈 아껴쓰고 있냥!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>292</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1 lv</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>390</y>
+     <width>341</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>날짜</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>시간</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>내용</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>난이도</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

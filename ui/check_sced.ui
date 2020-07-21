@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sced_check</class>
+ <widget class="QDialog" name="sced_check">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>345</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/IMG_3253.ico</normaloff>../images/IMG_3253.ico</iconset>
+  </property>
+  <widget class="QTableWidget" name="sced_table">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>501</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>경기천년바탕 Regular</family>
+    </font>
+   </property>
+   <column>
+    <property name="text">
+     <string>날짜</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>경기천년바탕 Regular</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>시간</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>경기천년바탕 Regular</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>카테고리</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>경기천년바탕 Regular</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>내용</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>경기천년바탕 Regular</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>난이도</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QDateEdit" name="date_choose">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>31</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;경기천년바탕 Regular&quot;;</string>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
